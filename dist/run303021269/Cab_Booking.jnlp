@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="Cab_Booking.jnlp">
+  <information>
+    <title>Cab_Booking</title>
+    <vendor>asus</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="Cab_Booking.jar" size="515221" download="eager" />
+    <jar href="lib/AbsoluteLayout.jar" size="2903" download="eager" />
+    <jar href="lib/mysql-connector-java-8.0.18.jar" size="2330539" download="eager" />
+  </resources>
+  <application-desc main-class="LoginPage"  name="Cab_Booking" >
+  </application-desc>
+  <update check="always"/>
+</jnlp>
